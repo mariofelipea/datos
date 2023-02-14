@@ -207,5 +207,29 @@ valueBox(value = paste(round(mean(CarreraLuz22$timerun/60),2),"min"),
          icon = "  ", 
          color = "#0EB0C6")
 ```
+### porcentaje  {.value-box}
+```{r}
+valueBox (value = paste(length(CarreraLuz22F$timerun), "Mujeres"), 
+         caption = "Numero de mujeres", 
+         icon = "  ", 
+         color = "#0EB0C6")
+```
+### porcentaje  {.value-box}
+```{r}
+valueBox (value = paste((length(CarreraLuz22F$timerun) - 1922)*-1, "Hombres"), 
+         caption = "Numero de Hombres", 
+         icon = "  ", 
+         color = "#0EB0C6")
+```
 
+### porcentaje  {.value-box}
+```{r}
+valueBox(value = paste(round(length(CarreraLuz22F$timerun)/length(CarreraLuz22$timerun)*100,2),"%"), 
+         caption = "Porcentaje mujeres", 
+         icon = "  ", 
+         color = "#0EB0C6")
+```
+
+
+git commit -m "primer commit"
 
