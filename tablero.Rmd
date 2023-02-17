@@ -231,5 +231,3 @@ valueBox(value = paste(round(length(CarreraLuz22F$timerun)/length(CarreraLuz22$t
 ```
 
 
-git commit -m "primer commit"
-
